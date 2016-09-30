@@ -2,6 +2,8 @@
 
 The **Twig Extensions** plugin is for [Grav CMS](http://github.com/getgrav/grav). It pulls in a subset of the official [Twig Extensions](https://github.com/twigphp/Twig-extensions), v1.4.0.
 
+For a demo, [visit my blog](https://perlkonig.com/demos/twig-extensions).
+
 ## Installation
 
 Installing the Twig Extensions plugin can be done in one of two ways. The GPM (Grav Package Manager) installation method enables you to quickly and easily install the plugin with a simple terminal command, while the manual method enables you to do so via a zip file.

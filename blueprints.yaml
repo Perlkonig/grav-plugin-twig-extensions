@@ -1,5 +1,5 @@
 name: Twig Extensions
-version: 1.0.0
+version: 1.0.1
 description: Incorporates a subset of the official [Twig Extensions](https://github.com/twigphp/Twig-extensions)
 icon: filter
 author:
@@ -9,6 +9,7 @@ homepage: https://github.com/Perlkonig/grav-plugin-twig-extensions
 keywords: grav, plugin, twig, extensions
 bugs: https://github.com/Perlkonig/grav-plugin-twig-extensions/issues
 docs: https://github.com/Perlkonig/grav-plugin-twig-extensions/blob/master/README.md
+demo: https://perlkonig.com/demos/twig-extensions
 license: MIT
 
 form:
