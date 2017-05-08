@@ -40,13 +40,24 @@ class Twig_Extensions_Extension_Array extends Twig_Extension
  *
  * @return array
  */
-function twig_shuffle_filter($array)
+function twig_shuffle_filter($array, $associative = false)
 {
     if ($array instanceof Traversable) {
         $array = iterator_to_array($array, false);
     }
 
-    shuffle($array);
+    if($associative) {
+        $keys = array_keys($array);
+        shuffle($keys);
+
+        foreach($keys as $key) {
+            $new[$key] = $array[$key];
+        }
+        $array = $new;
+    }
+    else {
+        shuffle($array);
+    }
 
     return $array;
 }
