@@ -1,5 +1,5 @@
 name: Twig Extensions
-version: 1.0.1
+version: 1.0.2
 description: Incorporates a subset of the official [Twig Extensions](https://github.com/twigphp/Twig-extensions)
 icon: filter
 author:

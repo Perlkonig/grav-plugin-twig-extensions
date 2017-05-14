@@ -51,6 +51,7 @@ Simply enable the plugin to use these Twig filters. There are three modules avai
 
 * The `Array` module provides a single filter:
   * `shuffle` randomizes an array.
+  * **Note:** This code was slightly modified to allow shuffling associative arrays. Simply pass `true` to enable this feature: `{{ myArray | shuffle(true) }}`.
 
 The `Date` module also only provides a single filter:
   * `time_diff` dispays the delta between two dates in a human readable form (e.g., `2 days ago`).
